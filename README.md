@@ -88,14 +88,15 @@ update or download command. Run this once first before doing update and download
 ``gogrepo.py download`` Use the saved manifest file from an update command, and download all known game items and bonus files.
 
     download [-h] [-dryrun] [-skipextras] [-skipextras] [-skipgames] [-wait WAIT] [-id <title>] [savedir]
-    -h, --help   show this help message and exit
-    -dryrun      display, but skip downloading of any files
-    -skipextras  skip downloading of any GOG extra files
-    -skipgames   skip downloading of any GOG game files
-    -wait WAIT   wait this long in hours before starting
-    -id <title>  specify the game to download by 'title' from the manifest
-                 <title> can be found in the !info.txt of the game directory
-    savedir      directory to save downloads to
+    -h, --help    show this help message and exit
+    -dryrun       display, but skip downloading of any files
+    -skipextras   skip downloading of any GOG extra files
+    -skipgames    skip downloading of any GOG game files
+    -skippatches  skip downloading of any GOG patches
+    -wait WAIT    wait this long in hours before starting
+    -id <title>   specify the game to download by 'title' from the manifest
+                  <title> can be found in the !info.txt of the game directory
+    savedir       directory to save downloads to
 
 --
 
